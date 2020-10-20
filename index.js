@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const express = require('express')
 const app = express()
 var cors = require('cors')
-const port = 4001
+const port = process.env.PORT
 
 // SL platsuppslag
 const key_platsuppslag = "fb21608c34b848aa9e80a4c78c731f83";
